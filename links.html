@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="دایرکتوری لینک‌های شخصی طاها قاسمی — پروفایل‌ها، پروژه‌ها و مقاصد منتخب" />
+  <title>لینک‌ها — TahaGhasemi</title>
+
+  <link rel="stylesheet" href="static/css/main.css" />
+
+  <script>
+    (function () {
+      try {
+        var lang = localStorage.getItem('tg-lang') || 'fa';
+        if (lang === 'en') {
+          document.documentElement.lang = 'en';
+          document.documentElement.dir = 'ltr';
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body data-page="links">
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header glass">
+    <a href="index.html" class="brand" aria-label="TahaGhasemi Home">
+      <span class="brand-mark" aria-hidden="true">TG</span>
+      <span class="brand-name">TahaGhasemi</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">خانه</a></li>
+        <li><a href="about.html" data-i18n="nav.about">درباره من</a></li>
+        <li><a href="skills.html" data-i18n="nav.skills">مهارت‌ها</a></li>
+        <li><a href="projects.html" data-i18n="nav.projects">پروژه‌ها</a></li>
+        <li><a href="music.html" data-i18n="nav.music">موسیقی</a></li>
+        <li><a href="garage.html" data-i18n="nav.garage">گاراژ</a></li>
+        <!--<li><a href="gallery.html" data-i18n="nav.gallery">گالری</a></li>-->
+        <li><a href="vision.html" data-i18n="nav.vision">چشم‌انداز</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">تماس</a></li>
+        <li><a href="links.html" class="active" aria-current="page" data-i18n="nav.links">لینک‌ها</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Switch language">
+        <span data-lang-label="fa">EN</span>
+        <span data-lang-label="en">FA</span>
+      </button>
+      <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===================== PAGE HEAD ===================== -->
+    <section class="page-head">
+      <div class="page-head-inner">
+        <p class="eyebrow" data-i18n="links.eyebrow">دایرکتوری</p>
+        <h1 class="page-title" data-i18n="links.title">لینک‌های دیجیتال من</h1>
+        <p class="page-lead" data-i18n="links.lead">
+          مقاصد آنلاین مهم من — پروفایل‌ها، پروژه‌ها و منابع منتخب. فقط لینک‌هایی نمایش داده می‌شوند که مقصد معتبر داشته باشند.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== LINKS GRID ===================== -->
+    <section class="section links-section" aria-labelledby="links-grid-title">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="links.archive.eyebrow">فهرست</p>
+        <h2 id="links-grid-title" data-i18n="links.archive.title">لینک‌های من</h2>
+      </div>
+
+      <div id="links-grid" class="links-grid" aria-live="polite" aria-busy="true">
+        <p class="links-loading" data-i18n="links.loading">در حال بارگذاری لینک‌ها…</p>
+      </div>
+
+      <div id="links-empty" class="links-empty glass" hidden>
+        <div class="empty-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+            <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+          </svg>
+        </div>
+        <h3 data-i18n="links.empty.title">هنوز لینکی اضافه نشده</h3>
+        <p data-i18n="links.empty.text">
+          لینک‌ها در <code>static/js/links-data.js</code> تنظیم می‌شوند و پس از افزودن، اینجا نمایش داده می‌شوند.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== TRANSITION ===================== -->
+    <section class="section section-next" aria-labelledby="links-next-title">
+      <h2 id="links-next-title" data-i18n="links.next.title">ادامه کاوش</h2>
+      <div class="next-links">
+        <a href="index.html" class="next-link">
+          <span class="next-label" data-i18n="links.next.home">بازگشت به خانه</span>
+          <span class="next-arrow" aria-hidden="true">←</span>
+        </a>
+        <a href="projects.html" class="next-link">
+          <span class="next-label" data-i18n="links.next.projects">پروژه‌ها</span>
+          <span class="next-arrow" aria-hidden="true">←</span>
+        </a>
+        <a href="contact.html" class="next-link">
+          <span class="next-label" data-i18n="links.next.contact">تماس با من</span>
+          <span class="next-arrow" aria-hidden="true">←</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-brand">Powered by TahaGhasemi | Autumn 2026</p>
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="index.html" data-i18n="nav.home">خانه</a></li>
+          <li><a href="projects.html" data-i18n="nav.projects">پروژه‌ها</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">تماس</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="static/js/links-data.js" defer></script>
+  <script src="static/js/translations/links.js" defer></script>
+  <script src="static/js/i18n.js" defer></script>
+  <script src="static/js/links.js" defer></script>
+  <script src="static/js/main.js" defer></script>
+</body>
+</html>
