@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="گاراژ شخصی طاها قاسمی — علاقه به خودرو، طراحی و مهندسی" />
+  <title>گاراژ — TahaGhasemi</title>
+
+  <link rel="stylesheet" href="static/css/main.css" />
+
+  <script>
+    (function () {
+      try {
+        var lang = localStorage.getItem('tg-lang') || 'fa';
+        if (lang === 'en') {
+          document.documentElement.lang = 'en';
+          document.documentElement.dir = 'ltr';
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body data-page="garage">
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header glass">
+    <a href="index.html" class="brand" aria-label="TahaGhasemi Home">
+      <span class="brand-mark" aria-hidden="true">TG</span>
+      <span class="brand-name">TahaGhasemi</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">خانه</a></li>
+        <li><a href="about.html" data-i18n="nav.about">درباره من</a></li>
+        <li><a href="skills.html" data-i18n="nav.skills">مهارت‌ها</a></li>
+        <li><a href="projects.html" data-i18n="nav.projects">پروژه‌ها</a></li>
+        <li><a href="music.html" data-i18n="nav.music">موسیقی</a></li>
+        <li><a href="garage.html" class="active" aria-current="page" data-i18n="nav.garage">گاراژ</a></li>
+        <!--<li><a href="gallery.html" data-i18n="nav.gallery">گالری</a></li>-->
+        <li><a href="vision.html" data-i18n="nav.vision">چشم‌انداز</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">تماس</a></li>
+        <li><a href="links.html" data-i18n="nav.links">لینک‌ها</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Switch language">
+        <span data-lang-label="fa">EN</span>
+        <span data-lang-label="en">FA</span>
+      </button>
+      <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===================== PAGE HEAD ===================== -->
+    <section class="page-head">
+      <div class="page-head-inner">
+        <p class="eyebrow" data-i18n="garage.eyebrow">The Garage</p>
+        <h1 class="page-title" data-i18n="garage.title">گاراژ شخصی من</h1>
+        <p class="page-lead" data-i18n="garage.lead">
+          علاقه‌ام به خودرو فراتر از ظاهر است؛ به طراحی، مهندسی، عملکرد و شخصیت ماشین‌ها توجه می‌کنم. این گاراژ شخصی من است — بدون آمار جعلی، با احترام به هویت هر خودرو.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== BMW PREFERENCE ===================== -->
+    <section class="section garage-pref-section" aria-labelledby="bmw-pref-title">
+      <div class="glass garage-pref-card">
+        <p class="eyebrow" data-i18n="garage.pref.eyebrow">برند محبوب</p>
+        <h2 id="bmw-pref-title" data-i18n="garage.pref.title">BMW — انتخاب اول من</h2>
+        <p data-i18n="garage.pref.text1">
+          BMW جایگاه ویژه‌ای در سلیقه خودرویی من دارد. این ترجیح شخصی است، نه یک ادعای عینی که BMW در هر دسته‌ای بهتر است. آنچه برای من BMW را متمایز می‌کند، ترکیب شخصیت رانندگی، مهندسی عملکردمحور، طراحی و رابطه میان راننده و ماشین است.
+        </p>
+        <p data-i18n="garage.pref.text2">
+          مدل‌های M برای من نماد تعادل میان روزمرگی و اسپرت بودن هستند — و طراحی آن‌ها هویتی دارد که به‌راحتی اشتباه گرفته نمی‌شود.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== CARS ===================== -->
+    <section class="section garage-cars-section" aria-labelledby="cars-title">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="garage.cars.eyebrow">خودروهای منتخب</p>
+        <h2 id="cars-title" data-i18n="garage.cars.title">هفت خودرو در گاراژ</h2>
+      </div>
+
+      <div class="car-grid">
+
+        <!-- ===== BMW M5 CS ===== -->
+      <article class="glass car-card car-card--bmw reveal">
+        <!-- بخش عکس جایگزین شد -->
+        <div class="car-visual">
+          <img 
+            src="static/images/bmw-m5-cs.jpg" 
+            alt="BMW M5 CS" 
+            class="car-image" 
+            loading="lazy"
+          />
+        </div>
+
+        <div class="car-body">
+          <header class="car-head">
+            <p class="car-brand">BMW</p>
+            <h3 class="car-name">M5 CS</h3>
+          </header>
+          <p class="car-desc" data-i18n="garage.m5cs.desc">
+            نسخه‌ای خاص از سدان پرفورمنس BMW؛ ترکیبی از قدرت، تمرکز رانندگی و ظرافت مهندسی. M5 CS برای من تجسم ایده‌ای است که BMW را در ذهنم متمایز می‌کند: تعادل میان هیجان و کنترل.
+          </p>
+          <ul class="car-traits">
+            <li data-i18n="garage.m5cs.t1">سدان پرفورمنس</li>
+            <li data-i18n="garage.m5cs.t2">حس رانندگی متمرکز</li>
+            <li data-i18n="garage.m5cs.t3">هویت M</li>
+          </ul>
+        </div>
+      </article>
+
+        <!-- ===== BMW M3 CS ===== -->
+        <article class="glass car-card car-card--bmw reveal">
+          <div class="car-visual">
+            <img 
+              src="static/images/bmw-m3-cs.jpg" 
+              alt="BMW M3 CS" 
+              class="car-image" 
+              loading="lazy"
+            />
+          </div>
+
+          <div class="car-body">
+            <header class="car-head">
+              <p class="car-brand">BMW</p>
+              <h3 class="car-name">M3 CS</h3>
+            </header>
+            <p class="car-desc" data-i18n="garage.m3cs.desc">
+              نسخه‌ای تیزتر و سبک‌تر از M3 که بر تمرکز راننده تأکید دارد. برای من نمادی است از اینکه چگونه یک مهندسی دقیق می‌تواند شخصیت یک خودرو را دگرگون کند.
+            </p>
+            <ul class="car-traits">
+              <li data-i18n="garage.m3cs.t1">اسپرت فشرده</li>
+              <li data-i18n="garage.m3cs.t2">تمرکز رانندگی</li>
+              <li data-i18n="garage.m3cs.t3">طراحی M</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- ===== Mercedes-AMG GT 63 ===== -->
+        <article class="glass car-card car-card--amg reveal">
+          <div class="car-visual">
+            <img 
+              src="static/images/amg-gt-63.jpg" 
+              alt="Mercedes-AMG GT 63" 
+              class="car-image" 
+              loading="lazy"
+            />
+          </div>
+
+          <div class="car-body">
+            <header class="car-head">
+              <p class="car-brand" data-i18n="garage.amg.brand">مرسدس-AMG</p>
+              <h3 class="car-name">GT 63</h3>
+            </header>
+            <p class="car-desc" data-i18n="garage.amg.desc">
+              ترکیبی از لوکس بودن، عملکرد بالا و طراحی تهاجمی. AMG GT 63 برای من نشان‌دهنده رویکردی است که در آن لوکس و اسپرت در یک بسته قرار می‌گیرند.
+            </p>
+            <ul class="car-traits">
+              <li data-i18n="garage.amg.t1">لوکس و اسپرت</li>
+              <li data-i18n="garage.amg.t2">طراحی تهاجمی</li>
+              <li data-i18n="garage.amg.t3">عملکرد بالا</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- ===== Dodge Challenger ===== -->
+        <article class="glass car-card car-card--dodge reveal">
+          <div class="car-visual">
+            <img 
+              src="static/images/dodge-challenger.jpg" 
+              alt="Dodge Challenger" 
+              class="car-image" 
+              loading="lazy"
+            />
+          </div>
+
+          <div class="car-body">
+            <header class="car-head">
+              <p class="car-brand">Dodge</p>
+              <h3 class="car-name">Challenger</h3>
+            </header>
+            <p class="car-desc" data-i18n="garage.challenger.desc">
+              تجسم اصیل ماسل‌کار آمریکایی — جسورانه، پرهیاهو و با شخصیتی که سعی نمی‌کند شبیه چیز دیگری باشد. Challenger برای من نماینده‌ی رویکردی است که قدرت و شخصیت را بالاتر از ظرافت می‌داند.
+            </p>
+            <ul class="car-traits">
+              <li data-i18n="garage.challenger.t1">ماسل‌کار آمریکایی</li>
+              <li data-i18n="garage.challenger.t2">طراحی جسورانه</li>
+              <li data-i18n="garage.challenger.t3">شخصیت متمایز</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- ===== Dodge Charger ===== -->
+        <article class="glass car-card car-card--dodge reveal">
+          <div class="car-visual">
+            <img 
+              src="static/images/dodge-charger.jpg" 
+              alt="Dodge Charger" 
+              class="car-image" 
+              loading="lazy"
+            />
+          </div>
+
+          <div class="car-body">
+            <header class="car-head">
+              <p class="car-brand">Dodge</p>
+              <h3 class="car-name">Charger</h3>
+            </header>
+            <p class="car-desc" data-i18n="garage.charger.desc">
+              نسخه‌ای با طراحی عضلانی و شخصیت عملکردی متمایز. Charger برای من ترکیبی است از کاربردی بودن سدان با روحیه‌ای که از سنت ماسل‌کار آمریکایی می‌آید.
+            </p>
+            <ul class="car-traits">
+              <li data-i18n="garage.charger.t1">طراحی عضلانی</li>
+              <li data-i18n="garage.charger.t2">شخصیت عملکردی</li>
+              <li data-i18n="garage.charger.t3">سنت ماسل‌کار</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- ===== Toyota Hilux ===== -->
+        <article class="glass car-card car-card--toyota reveal">
+          <div class="car-visual">
+            <img 
+              src="static/images/toyota-hilux.jpg" 
+              alt="Toyota Hilux" 
+              class="car-image" 
+              loading="lazy"
+            />
+          </div>
+
+          <div class="car-body">
+            <header class="car-head">
+              <p class="car-brand">Toyota</p>
+              <h3 class="car-name">Hilux</h3>
+            </header>
+            <p class="car-desc" data-i18n="garage.hilux.desc">
+              پیکاپی با تمرکز بر دوام و کاربردپذیری. Hilux برای من نشان‌دهنده رویکردی است که در آن مهندسی، پیش از هیجان، به فکر دوام و کارکرد درازمدت است.
+            </p>
+            <ul class="car-traits">
+              <li data-i18n="garage.hilux.t1">دوام بالا</li>
+              <li data-i18n="garage.hilux.t2">کاربردپذیری</li>
+              <li data-i18n="garage.hilux.t3">پیکاپ کاربردی</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- ===== Toyota Land Cruiser ===== -->
+        <article class="glass car-card car-card--toyota reveal">
+          <div class="car-visual">
+            <img 
+              src="static/images/toyota-land-cruiser.jpg" 
+              alt="Toyota Land Cruiser" 
+              class="car-image" 
+              loading="lazy"
+            />
+          </div>
+
+          <div class="car-body">
+            <header class="car-head">
+              <p class="car-brand">Toyota</p>
+              <h3 class="car-name">Land Cruiser</h3>
+            </header>
+            <p class="car-desc" data-i18n="garage.landcruiser.desc">
+              نمادی از توانایی آفرود، مهندسی مستحکم و سفرهای طولانی. Land Cruiser برای من تجسم خودرویی است که با گذشت زمان و شرایط سخت، هویت خودش را حفظ می‌کند.
+            </p>
+            <ul class="car-traits">
+              <li data-i18n="garage.landcruiser.t1">آفرود</li>
+              <li data-i18n="garage.landcruiser.t2">مهندسی مستحکم</li>
+              <li data-i18n="garage.landcruiser.t3">سفر طولانی</li>
+            </ul>
+          </div>
+        </article>
+
+    <!-- ===================== DISCLAIMER ===================== -->
+    <section class="section garage-note-section" aria-labelledby="note-title">
+      <div class="glass garage-note-inner">
+        <p class="eyebrow" data-i18n="garage.note.eyebrow">یادداشت</p>
+        <h2 id="note-title" class="sr-only" data-i18n="garage.note.title">یادداشت</h2>
+        <p class="garage-note-text" data-i18n="garage.note.text">
+          این ترجیحات شخصی هستند. هدف این صفحه ارائه مشخصات فنی دقیق یا مقایسه عینی نیست؛ بلکه بازتاب سلیقه و نگاه شخصی من به خودروهاست. تصاویر خودروها در صورت تأمین، جایگزین placeholder‌های فعلی خواهند شد.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== TRANSITION ===================== -->
+    <section class="section section-next" aria-labelledby="garage-next-title">
+      <h2 id="garage-next-title" data-i18n="garage.next.title">ادامه کاوش</h2>
+      <div class="next-links">
+        <a href="about.html" class="next-link">
+          <span class="next-label" data-i18n="garage.next.about">درباره من</span>
+          <span class="next-arrow" aria-hidden="true">←</span>
+        </a>
+        <a href="music.html" class="next-link">
+          <span class="next-label" data-i18n="garage.next.music">موسیقی</span>
+          <span class="next-arrow" aria-hidden="true">←</span>
+        </a>
+        <a href="contact.html" class="next-link">
+          <span class="next-label" data-i18n="garage.next.contact">تماس با من</span>
+          <span class="next-arrow" aria-hidden="true">←</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-brand">Powered by TahaGhasemi | Autumn 2026</p>
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="index.html" data-i18n="nav.home">خانه</a></li>
+          <li><a href="projects.html" data-i18n="nav.projects">پروژه‌ها</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">تماس</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="static/js/translations/garage.js" defer></script>
+  <script src="static/js/i18n.js" defer></script>
+  <script src="static/js/main.js" defer></script>
+</body>
+</html>
