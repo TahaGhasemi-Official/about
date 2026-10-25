@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="مهارت‌ها و دانش فنی طاها قاسمی — نرم‌افزار، سخت‌افزار، هوش مصنوعی، برق، مکاترونیک و بازار مالی" />
+  <title>مهارت‌ها — TahaGhasemi</title>
+
+  <link rel="stylesheet" href="static/css/main.css" />
+
+  <script>
+    (function () {
+      try {
+        var lang = localStorage.getItem('tg-lang') || 'fa';
+        if (lang === 'en') {
+          document.documentElement.lang = 'en';
+          document.documentElement.dir = 'ltr';
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body data-page="skills">
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header glass">
+    <a href="index.html" class="brand" aria-label="TahaGhasemi Home">
+      <span class="brand-mark" aria-hidden="true">TG</span>
+      <span class="brand-name">TahaGhasemi</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">خانه</a></li>
+        <li><a href="about.html" data-i18n="nav.about">درباره من</a></li>
+        <li><a href="skills.html" class="active" aria-current="page" data-i18n="nav.skills">مهارت‌ها</a></li>
+        <li><a href="projects.html" data-i18n="nav.projects">پروژه‌ها</a></li>
+        <li><a href="music.html" data-i18n="nav.music">موسیقی</a></li>
+        <li><a href="garage.html" data-i18n="nav.garage">گاراژ</a></li>
+        <!--<li><a href="gallery.html" data-i18n="nav.gallery">گالری</a></li>-->
+        <li><a href="vision.html" data-i18n="nav.vision">چشم‌انداز</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">تماس</a></li>
+        <li><a href="links.html" data-i18n="nav.links">لینک‌ها</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Switch language">
+        <span data-lang-label="fa">EN</span>
+        <span data-lang-label="en">FA</span>
+      </button>
+      <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===================== PAGE HEAD ===================== -->
+    <section class="page-head">
+      <div class="page-head-inner">
+        <p class="eyebrow" data-i18n="skills.eyebrow">دانش فنی</p>
+        <h1 class="page-title" data-i18n="skills.title">مهارت‌ها</h1>
+        <p class="page-lead" data-i18n="skills.lead">
+          مجموعه‌ای از حوزه‌هایی که در آن‌ها یاد می‌گیرم، آزمایش می‌کنم و می‌سازم. بدون ادعای تخصص مطلق — هر بخش، سطح واقعی خودش را نشان می‌دهد.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== LEGEND ===================== -->
+    <section class="section skills-legend-section" aria-labelledby="legend-title">
+      <h2 id="legend-title" class="sr-only" data-i18n="skills.legend.title">راهنمای سطوح</h2>
+      <ul class="legend-list">
+        <li class="legend-item">
+          <span class="legend-dot legend-dot--experienced" aria-hidden="true"></span>
+          <span data-i18n="skills.legend.experienced">در آن تجربه دارم</span>
+        </li>
+        <li class="legend-item">
+          <span class="legend-dot legend-dot--familiar" aria-hidden="true"></span>
+          <span data-i18n="skills.legend.familiar">با آن آشنا هستم</span>
+        </li>
+        <li class="legend-item">
+          <span class="legend-dot legend-dot--learning" aria-hidden="true"></span>
+          <span data-i18n="skills.legend.learning">در حال یادگیری</span>
+        </li>
+        <li class="legend-item">
+          <span class="legend-dot legend-dot--exploring" aria-hidden="true"></span>
+          <span data-i18n="skills.legend.exploring">علاقه‌مند به کاوش</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===================== A. SOFTWARE ===================== -->
+    <section id="software" class="section skill-block" aria-labelledby="software-title">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="skills.software.eyebrow">A · نرم‌افزار</p>
+        <h2 id="software-title" data-i18n="skills.software.title">برنامه‌نویسی و توسعه نرم‌افزار</h2>
+        <p data-i18n="skills.software.desc">
+          برنامه‌نویسی برای من راهی است برای تبدیل ایده به سیستم واقعی. با چند زبان آشنا هستم و روی پروژه‌های عملی کار می‌کنم.
+        </p>
+      </div>
+
+      <div class="skill-grid">
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3>Python</h3>
+            <span class="skill-badge skill-badge--experienced" data-i18n="skills.level.experienced">تجربه</span>
+          </header>
+          <p data-i18n="skills.software.python">زبان اصلی من برای ساخت پروژه‌های کاربردی، از جمله پروژه Lilo.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3>HTML</h3>
+            <span class="skill-badge skill-badge--experienced" data-i18n="skills.level.experienced">تجربه</span>
+          </header>
+          <p data-i18n="skills.software.html">ساختار صفحات وب و ترکیب آن با CSS و JavaScript.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3>CSS</h3>
+            <span class="skill-badge skill-badge--familiar" data-i18n="skills.level.familiar">آشنا</span>
+          </header>
+          <p data-i18n="skills.software.css">استایل‌دهی، چیدمان و طراحی رابط‌های کاربری.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3>JavaScript</h3>
+            <span class="skill-badge skill-badge--familiar" data-i18n="skills.level.familiar">آشنا</span>
+          </header>
+          <p data-i18n="skills.software.javascript">تعاملات سمت کاربر و منطق پویای صفحات وب.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3>C</h3>
+            <span class="skill-badge skill-badge--learning" data-i18n="skills.level.learning">در حال یادگیری</span>
+          </header>
+          <p data-i18n="skills.software.c">آشنایی با مبانی زبان C و درک عمیق‌تر از سطح پایین برنامه‌نویسی.</p>
+        </article>
+      </div>
+
+      <ul class="skill-topics" aria-label="Topics">
+        <li data-i18n="skills.software.topic.web">توسعه وب</li>
+        <li data-i18n="skills.software.topic.backend">بک‌اند</li>
+        <li data-i18n="skills.software.topic.frontend">فرانت‌اند</li>
+        <li data-i18n="skills.software.topic.app">برنامه‌های کاربردی</li>
+        <li data-i18n="skills.software.topic.architecture">معماری نرم‌افزار</li>
+        <li data-i18n="skills.software.topic.problem">حل مسئله</li>
+        <li data-i18n="skills.software.topic.automation">اتوماسیون</li>
+      </ul>
+    </section>
+
+    <!-- ===================== B. HARDWARE ===================== -->
+    <section id="hardware" class="section skill-block" aria-labelledby="hardware-title">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="skills.hardware.eyebrow">B · سخت‌افزار</p>
+        <h2 id="hardware-title" data-i18n="skills.hardware.title">سخت‌افزار کامپیوتر</h2>
+        <p data-i18n="skills.hardware.desc">
+          فهمیدن اینکه نرم‌افزار چگونه روی سخت‌افزار اجرا می‌شود، برایم به اندازه نوشتن کد اهمیت دارد.
+        </p>
+      </div>
+
+      <div class="skill-grid">
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.hardware.pc.title">مونتاژ PC</h3>
+          </header>
+          <p data-i18n="skills.hardware.pc.text">انتخاب قطعات، اسمبل و راه‌اندازی سیستم‌های کامپیوتری.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.hardware.components.title">قطعات کامپیوتر</h3>
+          </header>
+          <p data-i18n="skills.hardware.components.text">آشنایی با CPU، GPU، RAM، مادربرد و نقش هر قطعه در کارکرد سیستم.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.hardware.interaction.title">تعامل نرم‌افزار و سخت‌افزار</h3>
+          </header>
+          <p data-i18n="skills.hardware.interaction.text">درک نحوه ارتباط لایه‌های نرم‌افزاری با سخت‌افزار در سطح سیستم.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.hardware.architecture.title">معماری داخلی سیستم</h3>
+          </header>
+          <p data-i18n="skills.hardware.architecture.text">علاقه به ساختار درونی کامپیوتر و نحوه سازمان‌دهی اجزای آن.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== C. AI ===================== -->
+    <section id="ai" class="section skill-block" aria-labelledby="ai-title">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="skills.ai.eyebrow">C · هوش مصنوعی</p>
+        <h2 id="ai-title" data-i18n="skills.ai.title">هوش مصنوعی و یادگیری ماشین</h2>
+        <p data-i18n="skills.ai.desc">
+          حوزه‌ای که در آن یاد می‌گیرم و آزمایش می‌کنم — نه ادعای پژوهش حرفه‌ای، بلکه کنجکاوی جدی نسبت به سیستم‌های هوشمند.
+        </p>
+      </div>
+
+      <div class="skill-grid">
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.ai.ml.title">یادگیری ماشین</h3>
+            <span class="skill-badge skill-badge--learning" data-i18n="skills.level.learning">در حال یادگیری</span>
+          </header>
+          <p data-i18n="skills.ai.ml.text">کاوش در مفاهیم پایه یادگیری ماشین و کاربردهای آن.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.ai.apps.title">برنامه‌های مبتنی بر AI</h3>
+            <span class="skill-badge skill-badge--exploring" data-i18n="skills.level.exploring">علاقه‌مند</span>
+          </header>
+          <p data-i18n="skills.ai.apps.text">علاقه به ساخت ابزارها و برنامه‌هایی که از قابلیت‌های هوش مصنوعی استفاده می‌کنند.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.ai.systems.title">سیستم‌های هوشمند</h3>
+            <span class="skill-badge skill-badge--exploring" data-i18n="skills.level.exploring">علاقه‌مند</span>
+          </header>
+          <p data-i18n="skills.ai.systems.text">درک نحوه طراحی نرم‌افزاری که رفتار هوشمند از خود نشان می‌دهد.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== D. ELECTRICAL ===================== -->
+    <section id="electrical" class="section skill-block" aria-labelledby="electrical-title">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="skills.electrical.eyebrow">D · برق</p>
+        <h2 id="electrical-title" data-i18n="skills.electrical.title">مهندسی برق و الکتروتکنیک</h2>
+        <p data-i18n="skills.electrical.desc">
+          رشته تحصیلی من. این بخش ترکیبی از مبانی نظری و تجربه عملی در مدارها و سیستم‌های الکتریکی است.
+        </p>
+      </div>
+
+      <div class="skill-grid">
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.electrical.wiring.title">سیم‌کشی ساختمان</h3>
+            <span class="skill-badge skill-badge--experienced" data-i18n="skills.level.experienced">تجربه</span>
+          </header>
+          <p data-i18n="skills.electrical.wiring.text">طراحی و اجرای سیم‌کشی برق ساختمان بر اساس اصول فنی.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.electrical.smart.title">سیستم‌های هوشمند ساختمان</h3>
+            <span class="skill-badge skill-badge--familiar" data-i18n="skills.level.familiar">آشنا</span>
+          </header>
+          <p data-i18n="skills.electrical.smart.text">آشنایی با مفاهیم اتوماسیون و کنترل در ساختمان‌های هوشمند.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.electrical.machine.title">سیم‌کشی ماشین‌های الکتریکی</h3>
+            <span class="skill-badge skill-badge--familiar" data-i18n="skills.level.familiar">آشنا</span>
+          </header>
+          <p data-i18n="skills.electrical.machine.text">آشنایی با نحوه اتصال و راه‌اندازی موتورها و ماشین‌های الکتریکی.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.electrical.single.title">سیستم‌های تک‌فاز</h3>
+            <span class="skill-badge skill-badge--experienced" data-i18n="skills.level.experienced">تجربه</span>
+          </header>
+          <p data-i18n="skills.electrical.single.text">کار با مدارهای تک‌فاز و محاسبات مرتبط.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.electrical.three.title">سیستم‌های سه‌فاز</h3>
+            <span class="skill-badge skill-badge--familiar" data-i18n="skills.level.familiar">آشنا</span>
+          </header>
+          <p data-i18n="skills.electrical.three.text">درک اصول سیستم‌های سه‌فاز و کاربردهای صنعتی آن‌ها.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.electrical.motor.title">مدارهای موتور سه‌فاز</h3>
+            <span class="skill-badge skill-badge--familiar" data-i18n="skills.level.familiar">آشنا</span>
+          </header>
+          <p data-i18n="skills.electrical.motor.text">آشنایی با مدارهای راه‌اندازی و کنترل موتورهای سه‌فاز.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.electrical.calc.title">محاسبات الکتریکی</h3>
+            <span class="skill-badge skill-badge--familiar" data-i18n="skills.level.familiar">آشنا</span>
+          </header>
+          <p data-i18n="skills.electrical.calc.text">محاسبات پایه جریان، ولتاژ، توان و مقاومت.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.electrical.theory.title">مبانی ریاضی و فیزیکی برق</h3>
+            <span class="skill-badge skill-badge--learning" data-i18n="skills.level.learning">در حال یادگیری</span>
+          </header>
+          <p data-i18n="skills.electrical.theory.text">درک عمیق‌تر اصول ریاضی و فیزیکی پشت پدیده‌های الکتریکی.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.electrical.oscillation.title">نوسانات الکتریکی</h3>
+            <span class="skill-badge skill-badge--learning" data-i18n="skills.level.learning">در حال یادگیری</span>
+          </header>
+          <p data-i18n="skills.electrical.oscillation.text">کاوش در مفاهیم نوسان و رفتار مدارهای نوسانی.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.electrical.control.title">سیستم‌های کنترل الکتریکی</h3>
+            <span class="skill-badge skill-badge--learning" data-i18n="skills.level.learning">در حال یادگیری</span>
+          </header>
+          <p data-i18n="skills.electrical.control.text">آشنایی با منطق کنترل در سیستم‌های الکتریکی.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== E. MECHATRONICS ===================== -->
+    <section id="mechatronics" class="section skill-block" aria-labelledby="mechatronics-title">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="skills.mechatronics.eyebrow">E · مکاترونیک</p>
+        <h2 id="mechatronics-title" data-i18n="skills.mechatronics.title">مکاترونیک و مکانیک</h2>
+        <p data-i18n="skills.mechatronics.desc">
+          جایی که الکترونیک، مکانیک و نرم‌افزار به هم می‌رسند. این حوزه برای من یکی از جذاب‌ترین مرزهای فنی است.
+        </p>
+      </div>
+
+      <div class="skill-grid">
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.mechatronics.mech.title">سیستم‌های مکانیکی</h3>
+            <span class="skill-badge skill-badge--familiar" data-i18n="skills.level.familiar">آشنا</span>
+          </header>
+          <p data-i18n="skills.mechatronics.mech.text">درک اصول کارکرد سیستم‌ها و اجزای مکانیکی.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.mechatronics.design.title">طراحی مکانیکی</h3>
+            <span class="skill-badge skill-badge--learning" data-i18n="skills.level.learning">در حال یادگیری</span>
+          </header>
+          <p data-i18n="skills.mechatronics.design.text">کاوش در اصول طراحی اجزا و سازوکارهای مکانیکی.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.mechatronics.integration.title">هم‌افزایی الکترونیک و مکانیک</h3>
+            <span class="skill-badge skill-badge--exploring" data-i18n="skills.level.exploring">علاقه‌مند</span>
+          </header>
+          <p data-i18n="skills.mechatronics.integration.text">علاقه به ساخت سیستم‌هایی که نرم‌افزار، الکترونیک و مکانیک را یکجا ترکیب می‌کنند.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.mechatronics.rc.title">هواپیماهای RC</h3>
+            <span class="skill-badge skill-badge--exploring" data-i18n="skills.level.exploring">علاقه‌مند</span>
+          </header>
+          <p data-i18n="skills.mechatronics.rc.text">طراحی، مکانیک و کنترل هواپیماهای مدل با کنترل از راه دور.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.mechatronics.light.title">هواپیماهای سبک</h3>
+            <span class="skill-badge skill-badge--exploring" data-i18n="skills.level.exploring">علاقه‌مند</span>
+          </header>
+          <p data-i18n="skills.mechatronics.light.text">مکانیک پرواز و طراحی هواپیماهای سبک، حوزه‌ای که می‌خواهم بیشتر بشناسم.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== F. MARKETS ===================== -->
+    <section id="markets" class="section skill-block" aria-labelledby="markets-title">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="skills.markets.eyebrow">F · بازار</p>
+        <h2 id="markets-title" data-i18n="skills.markets.title">تحلیل بازار مالی</h2>
+        <p data-i18n="skills.markets.desc">
+          تحلیل بازار برای من یک علاقه فنی است، نه وعده سود. به ساختار بازار و رفتار قیمت علاقه دارم و آن را به عنوان یک حوزه یادگیری دنبال می‌کنم.
+        </p>
+      </div>
+
+      <div class="skill-grid">
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.markets.pa.title">پرایس اکشن</h3>
+            <span class="skill-badge skill-badge--familiar" data-i18n="skills.level.familiar">آشنا</span>
+          </header>
+          <p data-i18n="skills.markets.pa.text">خواندن رفتار قیمت و الگوهای حرکتی بازار.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.markets.liquidity.title">تحلیل نقدینگی</h3>
+            <span class="skill-badge skill-badge--familiar" data-i18n="skills.level.familiar">آشنا</span>
+          </header>
+          <p data-i18n="skills.markets.liquidity.text">درک نقش نقدینگی در حرکت قیمت و ساختار بازار.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.markets.trade.title">تراز معاملاتی</h3>
+            <span class="skill-badge skill-badge--learning" data-i18n="skills.level.learning">در حال یادگیری</span>
+          </header>
+          <p data-i18n="skills.markets.trade.text">مفاهیم مرتبط با تراز و تعادل در رفتار بازار.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.markets.structure.title">ساختار بازار</h3>
+            <span class="skill-badge skill-badge--familiar" data-i18n="skills.level.familiar">آشنا</span>
+          </header>
+          <p data-i18n="skills.markets.structure.text">شناسایی ساختار و فازهای مختلف بازار.</p>
+        </article>
+
+        <article class="glass skill-card reveal">
+          <header class="skill-card-head">
+            <h3 data-i18n="skills.markets.charts.title">تحلیل تکنیکال چارت</h3>
+            <span class="skill-badge skill-badge--familiar" data-i18n="skills.level.familiar">آشنا</span>
+          </header>
+          <p data-i18n="skills.markets.charts.text">خواندن نمودارها و تحلیل حرکات قیمتی بر اساس ابزارهای تکنیکال.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== TRANSITION ===================== -->
+    <section class="section section-next" aria-labelledby="skills-next-title">
+      <h2 id="skills-next-title" data-i18n="skills.next.title">ادامه کاوش</h2>
+      <div class="next-links">
+        <a href="projects.html" class="next-link">
+          <span class="next-label" data-i18n="skills.next.projects">پروژه‌های من</span>
+          <span class="next-arrow" aria-hidden="true">←</span>
+        </a>
+        <a href="vision.html" class="next-link">
+          <span class="next-label" data-i18n="skills.next.vision">چشم‌انداز و اهداف</span>
+          <span class="next-arrow" aria-hidden="true">←</span>
+        </a>
+        <a href="about.html" class="next-link">
+          <span class="next-label" data-i18n="skills.next.about">داستان شخصی</span>
+          <span class="next-arrow" aria-hidden="true">←</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-brand">Powered by TahaGhasemi | Autumn 2026</p>
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="index.html" data-i18n="nav.home">خانه</a></li>
+          <li><a href="projects.html" data-i18n="nav.projects">پروژه‌ها</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">تماس</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="static/js/translations/skills.js" defer></script>
+  <script src="static/js/i18n.js" defer></script>
+  <script src="static/js/main.js" defer></script>
+</body>
+</html>
