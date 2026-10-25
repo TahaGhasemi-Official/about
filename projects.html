@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="پروژه‌های طاها قاسمی — Lilo و تجربه‌های عملی" />
+  <title>پروژه‌ها — TahaGhasemi</title>
+
+  <link rel="stylesheet" href="static/css/main.css" />
+
+  <script>
+    (function () {
+      try {
+        var lang = localStorage.getItem('tg-lang') || 'fa';
+        if (lang === 'en') {
+          document.documentElement.lang = 'en';
+          document.documentElement.dir = 'ltr';
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body data-page="projects">
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header glass">
+    <a href="index.html" class="brand" aria-label="TahaGhasemi Home">
+      <span class="brand-mark" aria-hidden="true">TG</span>
+      <span class="brand-name">TahaGhasemi</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">خانه</a></li>
+        <li><a href="about.html" data-i18n="nav.about">درباره من</a></li>
+        <li><a href="skills.html" data-i18n="nav.skills">مهارت‌ها</a></li>
+        <li><a href="projects.html" class="active" aria-current="page" data-i18n="nav.projects">پروژه‌ها</a></li>
+        <li><a href="music.html" data-i18n="nav.music">موسیقی</a></li>
+        <li><a href="garage.html" data-i18n="nav.garage">گاراژ</a></li>
+        <!--<li><a href="gallery.html" data-i18n="nav.gallery">گالری</a></li>-->
+        <li><a href="vision.html" data-i18n="nav.vision">چشم‌انداز</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">تماس</a></li>
+        <li><a href="links.html" data-i18n="nav.links">لینک‌ها</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Switch language">
+        <span data-lang-label="fa">EN</span>
+        <span data-lang-label="en">FA</span>
+      </button>
+      <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===================== PAGE HEAD ===================== -->
+    <section class="page-head">
+      <div class="page-head-inner">
+        <p class="eyebrow" data-i18n="projects.eyebrow">کارهای عملی</p>
+        <h1 class="page-title" data-i18n="projects.title">پروژه‌ها</h1>
+        <p class="page-lead" data-i18n="projects.lead">
+          پروژه‌ها برای من راهی برای تبدیل یادگیری به تجربه واقعی هستند. این صفحه شامل کارهای انجام‌شده، پروژه‌های در حال توسعه و ایده‌های آینده است.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== FEATURED: LILO ===================== -->
+    <section class="section projects-featured-section" aria-labelledby="lilo-title">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="projects.featured.eyebrow">پروژه شاخص</p>
+        <h2 id="lilo-title">Lilo</h2>
+      </div>
+
+      <article class="glass project-feature reveal">
+        <div class="project-feature-visual" aria-hidden="true">
+          <div class="project-feature-visual-inner">
+            <span class="visual-brand">Lilo</span>
+            <span class="visual-sub" data-i18n="projects.lilo.domain">lilogroup.ir</span>
+          </div>
+        </div>
+
+        <div class="project-feature-body">
+          <header class="project-feature-head">
+            <span class="project-status project-status--ongoing" data-i18n="projects.status.ongoing">در حال توسعه</span>
+            <p class="project-category" data-i18n="projects.lilo.category">اپلیکیشن وب صنعتی و فروشگاه آنلاین</p>
+          </header>
+
+          <p class="project-desc" data-i18n="projects.lilo.desc1">
+            Lilo یکی از تلاش‌های عملی من برای تبدیل برنامه‌نویسی به چیزی مفید در دنیای واقعی است. این پروژه توسعه نرم‌افزار را با جریان‌های کاری صنعتی و نیازهای کسب‌وکار پیوند می‌دهد.
+          </p>
+
+          <p class="project-desc" data-i18n="projects.lilo.desc2">
+            Lilo حول نیازهای یک کسب‌وکار صنعتی فعال در حوزه کابینت و درب MDF، برش CNC، اشکال سفارشی، رنگ‌کاری تخصصی و محصولات مرتبط شکل گرفته است. این پروژه جریان‌های کاری صنعتی، تعامل با مشتری، مدیریت سفارش، مدیریت محصول و خرید آنلاین را در یک سیستم یکپارچه گرد هم می‌آورد.
+          </p>
+
+          <div class="project-block">
+            <h3 class="project-block-title" data-i18n="projects.lilo.features.title">قابلیت‌ها و مفاهیم</h3>
+            <ul class="project-features">
+              <li data-i18n="projects.lilo.features.orders">سفارش‌های صنعتی</li>
+              <li data-i18n="projects.lilo.features.custom">درخواست‌های تولید سفارشی</li>
+              <li data-i18n="projects.lilo.features.catalog">کاتالوگ محصولات</li>
+              <li data-i18n="projects.lilo.features.shop">فروشگاه آنلاین</li>
+              <li data-i18n="projects.lilo.features.dashboard">داشبورد مشتری</li>
+              <li data-i18n="projects.lilo.features.workflow">جریان‌های کاری کارمندان و مدیریت</li>
+              <li data-i18n="projects.lilo.features.inventory">اطلاعات انبار و محصولات</li>
+              <li data-i18n="projects.lilo.features.management">مدیریت سفارش‌ها</li>
+              <li data-i18n="projects.lilo.features.ui">رابط‌های کاربری کسب‌وکارمحور</li>
+            </ul>
+          </div>
+
+          <div class="project-block">
+            <h3 class="project-block-title" data-i18n="projects.lilo.tech.title">فناوری‌ها</h3>
+            <ul class="tech-tags">
+              <li>Python</li>
+              <li>Flask</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li data-i18n="projects.lilo.tech.db">پایگاه داده</li>
+              <li data-i18n="projects.lilo.tech.auth">احراز هویت</li>
+            </ul>
+          </div>
+
+          <div class="project-block">
+            <h3 class="project-block-title" data-i18n="projects.lilo.note.title">درباره پروژه</h3>
+            <p class="project-note" data-i18n="projects.lilo.note.text">
+              هدف این پروژه صرفاً نمایش یک وب‌سایت نیست؛ تلاشی است برای پیوند منطق برنامه‌نویسی با نیازهای عملیاتی واقعی. Lilo یک پروژه در حال توسعه است و بخشی از مسیر یادگیری من محسوب می‌شود.
+            </p>
+          </div>
+
+          <div class="project-actions">
+            <a href="https://lilogroup.ir" class="btn btn-primary" target="_blank" rel="noopener noreferrer" data-i18n="projects.lilo.visit">
+              مشاهده سایت پروژه
+            </a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- ===================== OTHER / FUTURE PROJECTS ===================== -->
+    <section class="section projects-more-section" aria-labelledby="more-title">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="projects.more.eyebrow">آینده</p>
+        <h2 id="more-title" data-i18n="projects.more.title">پروژه‌های در راه</h2>
+        <p data-i18n="projects.more.desc">
+          این بخش با گذشت زمان و تکمیل پروژه‌های جدید به‌روزرسانی می‌شود. پروژه‌ها فقط زمانی اینجا نمایش داده می‌شوند که به مرحله‌ای از توسعه رسیده باشند.
+        </p>
+      </div>
+
+      <div class="project-placeholder-card glass reveal">
+        <div class="placeholder-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 5v14M5 12h14" />
+          </svg>
+        </div>
+        <h3 data-i18n="projects.more.placeholder.title">پروژه‌های آینده</h3>
+        <p data-i18n="projects.more.placeholder.text">
+          ایده‌ها و پروژه‌های در حال شکل‌گیری، در زمان مناسب اینجا اضافه خواهند شد.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== TRANSITION ===================== -->
+    <section class="section section-next" aria-labelledby="projects-next-title">
+      <h2 id="projects-next-title" data-i18n="projects.next.title">ادامه کاوش</h2>
+      <div class="next-links">
+        <a href="skills.html" class="next-link">
+          <span class="next-label" data-i18n="projects.next.skills">دانش فنی</span>
+          <span class="next-arrow" aria-hidden="true">←</span>
+        </a>
+        <a href="vision.html" class="next-link">
+          <span class="next-label" data-i18n="projects.next.vision">چشم‌انداز</span>
+          <span class="next-arrow" aria-hidden="true">←</span>
+        </a>
+        <a href="contact.html" class="next-link">
+          <span class="next-label" data-i18n="projects.next.contact">تماس با من</span>
+          <span class="next-arrow" aria-hidden="true">←</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-brand">Powered by TahaGhasemi | Autumn 2026</p>
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="index.html" data-i18n="nav.home">خانه</a></li>
+          <li><a href="projects.html" data-i18n="nav.projects">پروژه‌ها</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">تماس</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="static/js/translations/projects.js" defer></script>
+  <script src="static/js/i18n.js" defer></script>
+  <script src="static/js/main.js" defer></script>
+</body>
+</html>
