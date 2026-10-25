@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TahaGhasemi — دنیای دیجیتال شخصی طاها قاسمی: کد، مدار، ایده‌ها" />
+  <title>TahaGhasemi — Personal Universe</title>
+
+  <link rel="stylesheet" href="static/css/main.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER / NAVIGATION ===================== -->
+  <header class="site-header glass">
+    <a href="index.html" class="brand" aria-label="TahaGhasemi Home">
+      <span class="brand-mark" aria-hidden="true">TG</span>
+      <span class="brand-name">TahaGhasemi</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html" class="active" data-i18n="nav.home">خانه</a></li>
+        <li><a href="about.html" data-i18n="nav.about">درباره من</a></li>
+        <li><a href="skills.html" data-i18n="nav.skills">مهارت‌ها</a></li>
+        <li><a href="projects.html" data-i18n="nav.projects">پروژه‌ها</a></li>
+        <li><a href="music.html" data-i18n="nav.music">موسیقی</a></li>
+        <li><a href="garage.html" data-i18n="nav.garage">گاراژ</a></li>
+        <!--<li><a href="gallery.html" data-i18n="nav.gallery">گالری</a></li>-->
+        <li><a href="vision.html" data-i18n="nav.vision">چشم‌انداز</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">تماس</a></li>
+        <li><a href="links.html" data-i18n="nav.links">لینک‌ها</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Switch language">
+        <span data-lang-label="fa">EN</span>
+        <span data-lang-label="en">FA</span>
+      </button>
+      <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="grid-overlay"></div>
+        <div class="ambient-glow"></div>
+      </div>
+
+      <div class="hero-inner">
+        <!-- ستون متن -->
+        <div class="hero-text">
+          <p class="eyebrow" data-i18n="hero.eyebrow">TahaGhasemi · Digital Universe</p>
+
+          <h1 id="hero-title" class="hero-title">
+            <span data-i18n="hero.headline">دنیای من، جایی میان کد، مدار و ایده‌ها.</span>
+          </h1>
+
+          <p class="hero-lead" data-i18n="hero.lead">
+            من طاها قاسمی هستم؛ هنرجوی رشته الکتروتکنیک، برنامه‌نویس و علاقه‌مند به دنیای کامپیوتر، مهندسی برق، هوش مصنوعی، مکانیک و تحلیل بازارهای مالی. به ساختن، یادگرفتن و کشف منطق پشت سیستم‌ها علاقه دارم.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#explore" class="btn btn-primary" data-i18n="hero.ctaExplore">کاوش دنیای من</a>
+            <a href="projects.html" class="btn btn-ghost" data-i18n="hero.ctaProjects">کشف پروژه‌ها</a>
+          </div>
+        </div>
+
+        <!-- ستون تصویر (پوستر) -->
+        <div class="hero-visual">
+          <!-- باکس اختصاصی عکس -->
+          <div class="hero-poster-frame">
+            <img
+              src="static/images/1.jpg"
+              alt="TahaGhasemi — Digital Universe Poster"
+              class="hero-poster-img"
+              width="1024"
+              height="1536"
+              loading="eager"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </div>
+
+      <a href="#explore" class="scroll-hint" aria-label="Scroll down">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ===================== PERSONAL INTRO ===================== -->
+    <section id="explore" class="section section-intro" aria-labelledby="intro-title">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="intro.eyebrow">درباره نگاه من</p>
+        <h2 id="intro-title" data-i18n="intro.title">نگاه من به فناوری</h2>
+      </div>
+
+      <div class="intro-grid">
+        <article class="glass card intro-card">
+          <h3 data-i18n="intro.software.title">نرم‌افزار</h3>
+          <p data-i18n="intro.software.text">
+            برنامه‌نویسی برای من راهی است برای تبدیل ایده به سیستمی واقعی و کارا.
+          </p>
+        </article>
+
+        <article class="glass card intro-card">
+          <h3 data-i18n="intro.electrical.title">مهندسی برق</h3>
+          <p data-i18n="intro.electrical.text">
+            مدارها و اصول الکتروتکنیک، منطق پنهان پشت فناوری را برایم آشکار می‌کنند.
+          </p>
+        </article>
+
+        <article class="glass card intro-card">
+          <h3 data-i18n="intro.mechanical.title">مکانیک و مکاترونیک</h3>
+          <p data-i18n="intro.mechanical.text">
+            مرز میان نرم‌افزار، الکترونیک و مکانیک، جایی است که بیشترین کنجکاوی‌ام را برمی‌انگیزد.
+          </p>
+        </article>
+      </div>
+
+      <p class="intro-footnote" data-i18n="intro.footnote">
+        یادگیری برای من فقط جمع‌آوری اطلاعات نیست؛ تلاش برای فهمیدن نحوه کارکرد چیزها و آزمودن ایده‌هاست.
+      </p>
+    </section>
+
+    <!-- ===================== FEATURED INTERESTS ===================== -->
+    <section class="section section-interests" aria-labelledby="interests-title">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="interests.eyebrow">حوزه‌های علاقه</p>
+        <h2 id="interests-title" data-i18n="interests.title">علایق محوری</h2>
+      </div>
+
+      <div class="interest-grid">
+        <a href="skills.html#software" class="glass interest-card">
+          <span class="interest-index">01</span>
+          <h3 data-i18n="interests.software.title">توسعه نرم‌افزار</h3>
+          <p data-i18n="interests.software.text">Python، وب و ساخت برنامه‌های کاربردی</p>
+        </a>
+
+        <a href="skills.html#hardware" class="glass interest-card">
+          <span class="interest-index">02</span>
+          <h3 data-i18n="interests.hardware.title">سخت‌افزار کامپیوتر</h3>
+          <p data-i18n="interests.hardware.text">مونتاژ PC و معماری داخلی سیستم‌ها</p>
+        </a>
+
+        <a href="skills.html#ai" class="glass interest-card">
+          <span class="interest-index">03</span>
+          <h3 data-i18n="interests.ai.title">هوش مصنوعی</h3>
+          <p data-i18n="interests.ai.text">یادگیری ماشین و سیستم‌های هوشمند</p>
+        </a>
+
+        <a href="skills.html#electrical" class="glass interest-card">
+          <span class="interest-index">04</span>
+          <h3 data-i18n="interests.electrical.title">مهندسی برق</h3>
+          <p data-i18n="interests.electrical.text">الکتروتکنیک، مدارها و سیستم‌های کنترل</p>
+        </a>
+
+        <a href="skills.html#mechatronics" class="glass interest-card">
+          <span class="interest-index">05</span>
+          <h3 data-i18n="interests.mechatronics.title">مکاترونیک</h3>
+          <p data-i18n="interests.mechatronics.text">پیوند الکترونیک و اجزای مکانیکی</p>
+        </a>
+
+        <a href="skills.html#markets" class="glass interest-card">
+          <span class="interest-index">06</span>
+          <h3 data-i18n="interests.markets.title">تحلیل بازار مالی</h3>
+          <p data-i18n="interests.markets.text">پرایس اکشن، ساختار بازار و نقدینگی</p>
+        </a>
+
+        <a href="garage.html" class="glass interest-card">
+          <span class="interest-index">07</span>
+          <h3 data-i18n="interests.automotive.title">مهندسی خودرو</h3>
+          <p data-i18n="interests.automotive.text">طراحی، عملکرد و شخصیت خودروها</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- ===================== FEATURED PROJECTS ===================== -->
+    <section class="section section-projects" aria-labelledby="projects-title">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="projects.eyebrow">کارهای منتخب</p>
+        <h2 id="projects-title" data-i18n="projects.title">پروژه‌های شاخص</h2>
+      </div>
+
+      <article class="glass project-card">
+        <div class="project-visual" aria-hidden="true">
+          <div class="project-visual-placeholder">
+            <span>Lilo</span>
+          </div>
+        </div>
+
+        <div class="project-body">
+          <p class="project-category" data-i18n="projects.lilo.category">اپلیکیشن وب صنعتی و فروشگاه آنلاین</p>
+          <h3 class="project-name">Lilo</h3>
+          <p class="project-desc" data-i18n="projects.lilo.desc">
+            Lilo یکی از تلاش‌های عملی من برای تبدیل برنامه‌نویسی به چیزی مفید در دنیای واقعی است. این پروژه توسعه نرم‌افزار را با جریان‌های کاری صنعتی و نیازهای کسب‌وکار پیوند می‌دهد.
+          </p>
+
+          <ul class="tech-tags" aria-label="Technologies">
+            <li>Python</li>
+            <li>Flask</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+
+          <div class="project-actions">
+            <a href="https://lilogroup.ir" class="btn btn-primary" target="_blank" rel="noopener noreferrer" data-i18n="projects.lilo.visit">
+              مشاهده سایت پروژه
+            </a>
+            <a href="projects.html" class="btn btn-ghost" data-i18n="projects.lilo.details">
+              جزئیات پروژه
+            </a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- ===================== PERSONAL STATEMENT ===================== -->
+    <section class="section section-statement" aria-labelledby="statement-title">
+      <div class="statement-inner glass">
+        <p class="eyebrow" data-i18n="statement.eyebrow">بیانیه شخصی</p>
+        <blockquote id="statement-title">
+          <p data-i18n="statement.quote">
+            یک ایده زمانی معنادارتر می‌شود که اندیشه با عمل همراه شود.
+          </p>
+        </blockquote>
+        <p class="statement-foot" data-i18n="statement.foot">
+          یادگیری، آزمودن و ساختن — سه عنصری که مسیر من را شکل می‌دهند.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== TRANSITION TO OTHER PAGES ===================== -->
+    <section class="section section-next" aria-labelledby="next-title">
+      <h2 id="next-title" data-i18n="next.title">ادامه کاوش</h2>
+      <div class="next-links">
+        <a href="about.html" class="next-link">
+          <span class="next-label" data-i18n="next.about">داستان شخصی</span>
+          <span class="next-arrow" aria-hidden="true">←</span>
+        </a>
+        <a href="skills.html" class="next-link">
+          <span class="next-label" data-i18n="next.skills">دانش فنی</span>
+          <span class="next-arrow" aria-hidden="true">←</span>
+        </a>
+        <a href="vision.html" class="next-link">
+          <span class="next-label" data-i18n="next.vision">چشم‌انداز و اهداف</span>
+          <span class="next-arrow" aria-hidden="true">←</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-brand">Powered by TahaGhasemi | Autumn 2026</p>
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="index.html" data-i18n="nav.home">خانه</a></li>
+          <li><a href="projects.html" data-i18n="nav.projects">پروژه‌ها</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">تماس</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- ===================== SCRIPTS ===================== -->
+  <script src="static/js/i18n.js" defer></script>
+  <script src="static/js/translations/index.js" defer></script>
+  <script src="static/js/main.js" defer></script>
+</body>
+</html>
